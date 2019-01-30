@@ -8,7 +8,7 @@ It is a game for two players, X and O, who take turns marking the spaces in a 3Ã
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-![Screen shot of the game](Screen Shot 2019-01-31 at 1.09.24 AM.png)
+![Screen shot of the game](ScreenShot.png)
 
 ## Features
 * Accepting two players
@@ -33,8 +33,6 @@ My favorit part ever is winning message
 ## Up comming Features
 * Add songs to the game
 * Make the computer wins
-
-## Versioning
 
 
 ## Acknowledgments/Thanks
