@@ -55,7 +55,6 @@ function twoPlayers(event) {
 function onePlayer(event) {
     var test = event.target
 
-
     if ($(test).text() === "" && gameOver === false) {
         input = 'X'
 
@@ -71,10 +70,6 @@ function onePlayer(event) {
 
         result();
     }
-
-
-
-
 }
 
 
@@ -120,7 +115,16 @@ function result() {
 
     if (tableCells.cell1 !== "" && tableCells.cell1 === tableCells.cell2 && tableCells.cell2 === tableCells.cell3) {
 
-        alert(tableCells.cell1 + ' Winner')
+        Swal.fire({
+            title: tableCells.cell1 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
 
         if (tableCells.cell1 === "X") {
             xScore++
@@ -131,9 +135,18 @@ function result() {
 
     } else if (tableCells.cell4 !== "" && tableCells.cell4 === tableCells.cell5 && tableCells.cell5 === tableCells.cell6) {
 
-        alert(tableCells.cell4 + ' Winner')
 
 
+        Swal.fire({
+            title: tableCells.cell4 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
 
         if (tableCells.cell4 === "X") {
             xScore++
@@ -144,8 +157,17 @@ function result() {
 
     } else if (tableCells.cell7 !== "" && tableCells.cell7 === tableCells.cell8 && tableCells.cell8 === tableCells.cell9) {
 
-        alert(tableCells.cell7 + ' Winner')
 
+        Swal.fire({
+            title: tableCells.cell7 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
         if (tableCells.cell7 === "X") {
             xScore++
         }
@@ -154,8 +176,17 @@ function result() {
         } gameOver = true
     } else if (tableCells.cell1 !== "" && tableCells.cell1 === tableCells.cell5 && tableCells.cell5 === tableCells.cell9) {
 
-        alert(tableCells.cell1 + ' Winner')
 
+        Swal.fire({
+            title: tableCells.cell1 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
         if (tableCells.cell1 === "X") {
             xScore++
         }
@@ -164,8 +195,17 @@ function result() {
         } gameOver = true
     } else if (tableCells.cell3 !== "" && tableCells.cell3 === tableCells.cell5 && tableCells.cell5 === tableCells.cell7) {
 
-        alert(tableCells.cell3 + ' Winner')
 
+        Swal.fire({
+            title: tableCells.cell3 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
         if (tableCells.cell3 === "X") {
             xScore++
         }
@@ -174,8 +214,17 @@ function result() {
         } gameOver = true
     } else if (tableCells.cell1 !== "" && tableCells.cell1 === tableCells.cell4 && tableCells.cell4 === tableCells.cell7) {
 
-        alert(tableCells.cell1 + ' Winner')
 
+        Swal.fire({
+            title: tableCells.cell1 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
         if (tableCells.cell1 === "X") {
             xScore++
         }
@@ -184,8 +233,17 @@ function result() {
         } gameOver = true
     } else if (tableCells.cell3 !== "" && tableCells.cell3 === tableCells.cell6 && tableCells.cell6 === tableCells.cell9) {
 
-        alert(tableCells.cell3 + ' Winner')
 
+        Swal.fire({
+            title: tableCells.cell3 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
         if (tableCells.cell3 === "X") {
             xScore++
         }
@@ -194,7 +252,17 @@ function result() {
         } gameOver = true
     } else if (tableCells.cell2 !== "" && tableCells.cell2 === tableCells.cell5 && tableCells.cell5 === tableCells.cell8) {
 
-        alert(tableCells.cell2 + ' Winner')
+
+        Swal.fire({
+            title: tableCells.cell2 + ' is the winner!!',
+            width: 620,
+            padding: '187px 0 210px 285px',
+            background: '#fff url(https://media1.tenor.com/images/66286c21e00a4ef6707abb4bfe19dcb3/tenor.gif?itemid=5043292) no-repeat',
+            backdrop: `
+      rgba(0,0,123,0.4)
+      
+    `
+        })
 
         if (tableCells.cell2 === "X") {
             xScore++
@@ -203,8 +271,19 @@ function result() {
             oScore++
         } gameOver = true
     } else if (tableCells.cell1 !== "" && tableCells.cell2 !== "" && tableCells.cell3 !== "" && tableCells.cell4 !== "" && tableCells.cell5 !== "" && tableCells.cell6 !== "" && tableCells.cell7 !== "" && tableCells.cell8 !== "" && tableCells.cell9 !== "") {
+        Swal.fire({
 
-        alert('Its a tie')
+            width: 400,
+            padding: '225px 0 44px 0',
+            background: '#fff url(http://www.reactiongifs.com/r/2013/02/tied.gif) no-repeat',
+
+            'background-position-x': 'center',
+            backdrop: `
+              rgba(0,0,123,0.4)
+              
+            `
+        })
+
         gameOver = true
 
     }
@@ -234,3 +313,5 @@ function reload() {
 }
 
 
+$('body').css(
+    'background', 'url(http://davidfordmusic.com/wp-content/uploads/2016/03/Music-notes2.jpg) no-repeat')
