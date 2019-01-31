@@ -6,7 +6,8 @@ It is a game for two players, X and O, who take turns marking the spaces in a 3Ã
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. [Play here](https://github.com/rawanah995)
+
 
 ![Screen shot of the game](ScreenShot.png)
 
@@ -37,8 +38,8 @@ My favorit part ever is winning message
 
 ## Acknowledgments/Thanks
 
-* Moath Althawad @mfalthaw
-* Michael Finneran @MicFin
-* Usman Bashir @Usman Bashir
-* Rawan @rawanah995
+* Moath Althawad [@mfalthaw](https://github.com/rawanah995)
+* Michael Finneran [@MicFin](https://github.com/rawanah995)
+* Usman Bashir [@Usman Bashir](https://github.com/usmanbashir) 
+* Rawan Alahmadi [@Rawan](https://github.com/rawanah995)
 
