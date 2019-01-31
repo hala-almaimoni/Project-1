@@ -38,8 +38,8 @@ My favorit part ever is winning message
 
 ## Acknowledgments/Thanks
 
-* Moath Althawad [@mfalthaw](https://github.com/rawanah995)
-* Michael Finneran [@MicFin](https://github.com/rawanah995)
+* Moath Althawad [@mfalthaw](https://github.com/mfalthaw)
+* Michael Finneran [@MicFin](https://github.com/MicFin)
 * Usman Bashir [@Usman Bashir](https://github.com/usmanbashir) 
 * Rawan Alahmadi [@Rawan](https://github.com/rawanah995)
 
