@@ -314,4 +314,4 @@ function reload() {
 
 
 $('body').css(
-    'background', 'url(http://davidfordmusic.com/wp-content/uploads/2016/03/Music-notes2.jpg) no-repeat')
+    'background', 'url(Music-background.jpg) no-repeat')
